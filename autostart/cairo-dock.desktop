@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Cairo Dock
+Comment=iOS-style app dock
+Exec=cairo-dock
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true

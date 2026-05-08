@@ -1,0 +1,23 @@
+#!/bin/bash
+export DISPLAY=:0
+export XAUTHORITY=~/.Xauthority
+
+# Kill any existing claude widget
+pkill -f "yad.*Claude AI" 2>/dev/null
+sleep 0.3
+
+yad \
+  --title="Claude AI" \
+  --on-top \
+  --skip-taskbar \
+  --width=260 \
+  --height=110 \
+  --image="$HOME/Pictures/claude-icon.png" \
+  --text="<b><big>Claude AI</big></b>\nClick to start a conversation" \
+  --button="Launch Claude:0" \
+  --button="Close:1" \
+  --borders=15
+
+if [ $? -eq 0 ]; then
+  lxterminal --title="Claude" -e "claude" &
+fi

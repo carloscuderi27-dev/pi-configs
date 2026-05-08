@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Claude Widget
+Comment=Floating Claude launcher button
+Exec=/home/carlo/.local/bin/claude-widget
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
