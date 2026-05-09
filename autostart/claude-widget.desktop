@@ -1,8 +1,8 @@
 [Desktop Entry]
 Type=Application
-Name=Claude Widget
-Comment=Floating Claude launcher button
-Exec=/home/carlo/.local/bin/claude-widget
+Name=Claude Bubble
+Comment=Floating Claude launcher
+Exec=bash -c 'pkill -f "python3.*claude-bubble" 2>/dev/null; sleep 0.3; nohup python3 /home/carlo/.local/bin/claude-bubble &'
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true
