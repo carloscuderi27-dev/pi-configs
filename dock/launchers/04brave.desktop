@@ -1,0 +1,46 @@
+#3.4.1
+
+#[gtk-about]
+
+[Desktop Entry]
+
+#F[Icon]
+frame_maininfo=
+
+#d+ Name of the container it belongs to:
+Container=
+
+#v
+sep_display=
+
+#s[Default] Launcher's name:
+Name=Brave
+
+#S+[Default] Image's name or path:
+Icon=/usr/share/icons/hicolor/256x256/apps/brave-browser.png
+
+#s[Default] Command to launch on click:
+Exec=/usr/bin/brave-browser-stable %U
+
+
+#X[Extra parameters]
+frame_extra=
+
+#b Don't link the launcher with its window
+prevent inhibate=false
+
+#K[Default] Class of the program:
+StartupWMClass=brave-browser
+
+#b Run in a terminal?
+Terminal=false
+
+#i-[0;16] Only show in this specific viewport:
+ShowOnViewport=0
+
+#f[0;100] Order you want for this launcher among the others:
+Order=5.5
+
+Icon Type=0
+Type=Application
+Origin=/usr/share/applications/brave-browser.desktop

@@ -1,0 +1,45 @@
+#3.4.1
+
+#[gtk-about]
+
+[Desktop Entry]
+
+#F[Icon]
+frame_maininfo=
+
+#d+ Name of the container it belongs to:
+Container=
+
+#v
+sep_display=
+
+#s[Default] Launcher's name:
+Name=PokéDash
+
+#S+[Default] Image's name or path:
+Icon=/home/carlo/Pictures/pokedash-icon.png
+
+#s[Default] Command to launch on click:
+Exec=/home/carlo/pokedash/open.sh
+
+
+#X[Extra parameters]
+frame_extra=
+
+#b Don't link the launcher with its window
+prevent inhibate=false
+
+#K[Default] Class of the program:
+StartupWMClass=
+
+#b Run in a terminal?
+Terminal=false
+
+#i-[0;16] Only show in this specific viewport:
+ShowOnViewport=0
+
+#f[0;100] Order you want for this launcher among the others:
+Order=4.5
+
+Icon Type=0
+Type=Application
