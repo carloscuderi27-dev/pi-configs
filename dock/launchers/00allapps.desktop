@@ -1,0 +1,11 @@
+#3.4.1
+[Desktop Entry]
+Container=
+Name=All Apps
+Icon=/home/carlo/Pictures/ios-icons/dark-allapps.png
+Exec=bash /home/carlo/.local/bin/jarvis-drawer
+Terminal=false
+ShowOnViewport=0
+Order=0.5
+Icon Type=0
+Type=Application

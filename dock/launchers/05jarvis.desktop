@@ -1,0 +1,11 @@
+#3.4.1
+[Desktop Entry]
+Container=
+Name=JARVIS
+Icon=/home/carlo/Pictures/ios-icons/dark-jarvis.png
+Exec=/usr/bin/brave-browser-stable --app=http://127.0.0.1:8765 --start-fullscreen
+Terminal=false
+ShowOnViewport=0
+Order=6
+Icon Type=0
+Type=Application

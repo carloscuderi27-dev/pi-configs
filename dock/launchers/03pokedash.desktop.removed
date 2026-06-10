@@ -14,13 +14,13 @@ Container=
 sep_display=
 
 #s[Default] Launcher's name:
-Name=Brave
+Name=PokéDash
 
 #S+[Default] Image's name or path:
-Icon=/home/carlo/Pictures/ios-icons/dark-brave.png
+Icon=/home/carlo/Pictures/pokedash-icon.png
 
 #s[Default] Command to launch on click:
-Exec=/usr/bin/brave-browser-stable %U
+Exec=/home/carlo/pokedash/open.sh
 
 
 #X[Extra parameters]
@@ -30,7 +30,7 @@ frame_extra=
 prevent inhibate=false
 
 #K[Default] Class of the program:
-StartupWMClass=brave-browser
+StartupWMClass=
 
 #b Run in a terminal?
 Terminal=false
@@ -39,8 +39,7 @@ Terminal=false
 ShowOnViewport=0
 
 #f[0;100] Order you want for this launcher among the others:
-Order=5.5
+Order=4.5
 
 Icon Type=0
 Type=Application
-Origin=/usr/share/applications/brave-browser.desktop

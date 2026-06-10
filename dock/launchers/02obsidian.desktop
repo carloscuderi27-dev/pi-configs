@@ -17,7 +17,7 @@ sep_display=
 Name=Knowledge Base
 
 #S+[Default] Image's name or path:
-Icon=accessories-text-editor
+Icon=/home/carlo/Pictures/ios-icons/dark-obsidian.png
 
 #s[Default] Command to launch on click:
 #{Example: nautilus --no-desktop, gedit, etc. You can even enter a shortkey, e.g. <Alt>F1, <Ctrl>c,  <Ctrl>v, etc}
